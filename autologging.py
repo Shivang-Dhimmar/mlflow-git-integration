@@ -13,7 +13,7 @@ os.environ["MLFLOW_TRACKING_PASSWORD"] = "ShivShivShiv"
 mlflow.set_tracking_uri("http://127.0.0.1:5000")
 
 
-mlflow.set_experiment("Experiment-1 Github Integration")
+mlflow.set_experiment("Github Integration Experiment")
 mlflow.sklearn.autolog(
     log_input_examples=True,
     log_model_signatures=True,
